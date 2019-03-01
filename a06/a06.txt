@@ -1,0 +1,32 @@
+a)
+	(Zeile 11) aktuelle parameter mit n
+	
+	(Zeile 22) formale parameter auch mit n
+
+
+b)	
+	a z.3 =	Hier wird eine Globale Statische Variable angelegt deren lebensdauer vom Programmanfang bis zum Programmende anhält.
+		Die Sichtbarkeit wird hier durch die Hauptmethode ab Zeile 5 in zeile 11 und in zeile 18-19 Unterbrochen,
+		womit sie erst wieder nach der Hauptmethode Sichtbar wird das bedeutet erst nach Zeile 15.
+		Da eine statische variable verändert wurde ist die Sichtbarkeit streng genommen komplett aufgelöst.
+
+		
+	a z.11= Diese Variable ist nur Lokal Sichtbar das bedeutet sie ist außerhalb der
+		Main Methode nicht zu erreichen. Die Lebensdauer der Variable ist nach der Main Methode vorbei.
+		
+	
+	n = 	Nur Lokal in der Mehtode Sichtbar da es ein Formaler Parameter der Methode ist.
+		Lebensdauer ebenfalls nur lokal innerrhalb der Methode.
+	
+	tmp = 	Die Variable ist hier auch nur Methoden intern Sichtbar und die Speicherzelle
+		wird am ende de Methode wieder frei gegeben.
+
+
+c)	Die Verbesserung der Nebeneffekte wurde als Programm dargestellt.
+	
+	Die Konstante variable wurde durch die Globale Variable n ersetzt.
+	Nun kann man in der Mainmethode ohne weiteres die Neue Variable a erstellen ohne die Sichtbarkeit zu beeinträchtigen.
+	Da wir den wert der Globalen Variable nach der bearbeitung nicht verändern wollen legen wir in 17 bis 18 eine neue Variable an
+	die zwar mit der Globalen Variable arbeitet aber diese nicht verändert.
+	So können wir den schritt überspringen, der Globalen variable a den Lokalen wert von n zuzuweisen.
+	Somit kann man die nebeneffekte aus dem Weg räumen.

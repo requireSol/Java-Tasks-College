@@ -1,0 +1,17 @@
+a)
+	1)	Die catch-or.throws Regel besagt das ein
+		fehler behandelt oder weitergegeben wird.
+		Wenn er weitergegebn wird sucht es unmittebar  
+		in den Umstehenden Blöcken nach einer passenden catch Klausel.
+		
+	2)	Das Programm wird mit einer Fehlermeldung abgebrochen da
+		die Ausnahme niemals behandelt wird.
+	
+	3)	Da diese Exception eigenfehler sind muss man sie nicht behandeln
+		sonder versuchen den Feheler zu beenden.
+
+b)
+	Hier wird der wert 10 zurückgegebn.
+	Da der finally Block immer ausgeführt wird bringt es nichts
+	einen try-catch block anzulegen da der try-Block immer,
+	mit der finally-Klausel überschrieben wird.

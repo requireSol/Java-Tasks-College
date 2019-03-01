@@ -1,0 +1,12 @@
+public class StringManipulation{
+
+	
+	
+	
+	
+	
+	
+	public static replaceUmlauts(){
+	}
+	
+}

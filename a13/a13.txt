@@ -1,0 +1,17 @@
+a)
+	//1
+	//3
+	//2
+	//4
+	--------
+	3
+	81
+	
+b)
+	3L wird in die ObjectKiste Long(Wrapper-Klassen) reingespeichert
+	3 is a Long
+	
+	Da wir einen String übergeben und 
+	nirgendwo (obj instanceof String)
+	als bedingung steht gehen wir zu else.
+	3.5 is an Object

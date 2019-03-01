@@ -1,0 +1,15 @@
+a)
+	1)	Zeile 24 wurde von der Zeile 38 überdeckt
+		Zeile 15 überläd 11
+		Zeile 46 überschreibt Zeile 34
+	 
+	2) 	zeile 5 (p.age) greift auf die variable age der Klasse Parent zu
+		zeile 7 (p.getAge()) greift auf die Methode der Childklasse zu das die Methode
+		der Parentklasse überschrieben wurde
+	
+	3)	zeile 8 greift auf die methode in zeile 11 zu das das objekt p in der Vaterklasse
+		erstellt wurde.
+		
+		Verbesserungsvorschlag:
+		print((Child) p);
+		
